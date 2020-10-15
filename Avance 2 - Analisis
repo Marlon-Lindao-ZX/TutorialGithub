@@ -1,0 +1,10 @@
+Integrantes:
+	Allison Brito	
+	Marlon Lindao
+	Vielka Villavicencio
+
+Analisis del Grafo construido:
+Para construir el grafo, nosotros usamos como base el entorno del cubo realizado en matriz, donde de la matriz 3d binaria, los numeros ceros dentro de la matriz son los vertices del grafo, y para conectarlos, se recorrio punto por punto de los vertices creados, en la matriz, y para cada punto se revisa sus vecinos inmediatos(es decir el punto es como el nucleo de un cubo mas grande) en todas las direcciones en una unidad.
+Si el punto vecino se encuentra dentro de la matriz 3D, y ademas posee un valor de cero, este punto con el punto central, se crea una arista de tamaño 1, donde la longitud del arco es la cantidad de pasos a llegar a un punto vecino.
+
+
